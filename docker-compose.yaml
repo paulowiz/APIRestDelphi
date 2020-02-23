@@ -1,0 +1,10 @@
+version: '2.1'
+
+services:
+  horse:
+    image: 'hashload/delphi-dev:10.3.3-rio'
+    privileged: true
+    tty: true
+    ports:
+     - '9000:9000'
+     - '64211:64211'
