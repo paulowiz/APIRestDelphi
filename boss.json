@@ -6,6 +6,8 @@
 	"mainsrc": "./",
 	"projects": [],
 	"dependencies": {
-		"github.com/hashload/horse": "^1.7.0"
+		"github.com/hashload/horse": "^1.7.0",
+		"https://github.com/bittencourtthulio/simpleorm": ">0.0.0",
+		"https://github.com/ezequieljuliano/datasetconverter4delphi": ">0.0.0"
 	}
 }

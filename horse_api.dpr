@@ -6,7 +6,9 @@ program horse_api;
 
 uses
   Horse,
-  ServerReact.Model.Connection in 'model\ServerReact.Model.Connection.pas';
+  ServerReact.Model.Connection in 'model\ServerReact.Model.Connection.pas',
+  ServerReact.Model.Entidades.User in 'model\Entidades\ServerReact.Model.Entidades.User.pas',
+  ServerReact.Model.DAOGeneric in 'model\ServerReact.Model.DAOGeneric.pas';
 
 var
   App: THorse;

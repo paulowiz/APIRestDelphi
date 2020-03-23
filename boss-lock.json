@@ -9,6 +9,22 @@
 			"artifacts": {},
 			"failed": false,
 			"changed": false
+		},
+		"https://github.com/bittencourtthulio/simpleorm": {
+			"name": "simpleorm",
+			"version": "master",
+			"hash": "e31544898ddde0acba78f6a9ad7103a0",
+			"artifacts": {},
+			"failed": false,
+			"changed": false
+		},
+		"https://github.com/ezequieljuliano/datasetconverter4delphi": {
+			"name": "datasetconverter4delphi",
+			"version": "master",
+			"hash": "077c54069cf22d7cc8c3038b650872b2",
+			"artifacts": {},
+			"failed": false,
+			"changed": false
 		}
 	}
 }
