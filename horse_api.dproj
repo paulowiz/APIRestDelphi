@@ -6,10 +6,9 @@
         <MainSource>horse_api.dpr</MainSource>
         <Base>True</Base>
         <Config Condition="'$(Config)'==''">Debug</Config>
-        <Platform Condition="'$(Platform)'==''">Win32</Platform>
+        <Platform Condition="'$(Platform)'==''">Win64</Platform>
         <TargetedPlatforms>3</TargetedPlatforms>
         <AppType>Console</AppType>
-        <Profile Condition="'$(Platform)'=='Win64'">WindowsAws</Profile>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Config)'=='Base' or '$(Base)'!=''">
         <Base>true</Base>
@@ -75,7 +74,7 @@
         <DCC_K>false</DCC_K>
         <DCC_Namespace>System;Xml;Data;Datasnap;Web;Soap;$(DCC_Namespace)</DCC_Namespace>
         <SanitizedProjectName>horse_api</SanitizedProjectName>
-        <DCC_UnitSearchPath>modules\.dcp;modules\.dcu;modules;modules\datasetconverter4delphi\src;modules\datasetconverter4delphi\unittest;modules\horse\src;modules\jhonson\src;modules\simpleorm\Sample\Entidades;modules\simpleorm\Sample\Firedac;modules\simpleorm\Sample\RestDW;modules\simpleorm;$(DCC_UnitSearchPath)</DCC_UnitSearchPath>
+        <DCC_UnitSearchPath>$(DCC_UnitSearchPath);modules\.dcp;modules\.dcu;modules;modules\datasetconverter4delphi\src;modules\datasetconverter4delphi\unittest;modules\horse\src;modules\jhonson\src;modules\simpleorm\Sample\Entidades;modules\simpleorm\Sample\Firedac;modules\simpleorm\Sample\RestDW;modules\simpleorm;modules\zeoslib\examples\blobs;modules\zeoslib\examples\controls;modules\zeoslib\examples\dbc;modules\zeoslib\examples\design;modules\zeoslib\examples\embedded;modules\zeoslib\examples\simple;modules\zeoslib\packages\Delphi2005;modules\zeoslib\packages\Delphi2006;modules\zeoslib\packages\Delphi2007;modules\zeoslib\packages\Delphi2009;modules\zeoslib\packages\Delphi2010;modules\zeoslib\packages\DelphiXE;modules\zeoslib\packages\DelphiXE10;modules\zeoslib\packages\DelphiXE10.1;modules\zeoslib\packages\DelphiXE10.2;modules\zeoslib\packages\DelphiXE10.3;modules\zeoslib\packages\DelphiXE2;modules\zeoslib\packages\DelphiXE3;modules\zeoslib\packages\DelphiXE4;modules\zeoslib\packages\DelphiXE5;modules\zeoslib\packages\DelphiXE6;modules\zeoslib\packages\DelphiXE7;modules\zeoslib\packages\DelphiXE8;modules\zeoslib\packages\delphi7;modules\zeoslib\packages\delphi9;modules\zeoslib\packages\lazarus;modules\zeoslib\src;modules\zeoslib\src\component;modules\zeoslib\src\core;modules\zeoslib\src\dbc;modules\zeoslib\src\parsesql;modules\zeoslib\src\plain;modules\zeoslib\test;modules\zeoslib\test\bugreport;modules\zeoslib\test\component;modules\zeoslib\test\config\Units;modules\zeoslib\test\core;modules\zeoslib\test\dbc;modules\zeoslib\test\external;modules\zeoslib\test\framework;modules\zeoslib\test\parsesql;modules\zeoslib\test\performance;modules\zeoslib\zeosbugtemplate\src</DCC_UnitSearchPath>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Base_Android)'!=''">
         <DCC_UsePackage>DBXSqliteDriver;IndyIPCommon;RESTComponents;bindcompdbx;DBXInterBaseDriver;IndyIPServer;ZComponent;IndySystem;ZCore;tethering;fmxFireDAC;ZDbc;FireDAC;bindcompfmx;FireDACSqliteDriver;FMXTee;soaprtl;DbxCommonDriver;FmxTeeUI;fmx;FireDACIBDriver;xmlrtl;soapmidas;rtl;DbxClientDriver;CustomIPTransport;dbexpress;IndyCore;ZParseSql;bindcomp;dsnap;ZPlain;FireDACCommon;IndyIPClient;RESTBackendComponents;soapserver;dbxcds;bindengine;CloudService;dsnapxml;dbrtl;IndyProtocols;FireDACCommonDriver;inet;$(DCC_UsePackage)</DCC_UsePackage>
@@ -1061,7 +1060,7 @@
                 <Platform value="iOSDevice64">False</Platform>
                 <Platform value="iOSSimulator">False</Platform>
                 <Platform value="Win32">True</Platform>
-                <Platform value="Win64" Profile="WindowsAws">True</Platform>
+                <Platform value="Win64">True</Platform>
             </Platforms>
             <ModelSupport>False</ModelSupport>
         </BorlandProject>

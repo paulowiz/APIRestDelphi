@@ -26,6 +26,14 @@
 			"failed": false,
 			"changed": false
 		},
+		"https://github.com/frones/zeoslib": {
+			"name": "zeoslib",
+			"version": "7.2.6-stable",
+			"hash": "c14093688439915a98652ded3efd495c",
+			"artifacts": {},
+			"failed": false,
+			"changed": false
+		},
 		"https://github.com/hashload/jhonson": {
 			"name": "jhonson",
 			"version": "1.0.3",

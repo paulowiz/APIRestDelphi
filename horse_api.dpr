@@ -34,8 +34,10 @@ begin
     var
       FDAO : iDAOGeneric<TUSER>;
     begin
+     ServerReact.Model.Connection.Connected;
       FDAO := TDAOGeneric<TUSER>.New;
       Res.Send<TJsonArray>(FDAO.Find);
+      ServerReact.Model.Connection.Disconnected;
     end);
   App.Start;
 end.

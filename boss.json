@@ -9,6 +9,7 @@
 		"github.com/hashload/horse": "^1.7.0",
 		"https://github.com/bittencourtthulio/simpleorm": ">0.0.0",
 		"https://github.com/ezequieljuliano/datasetconverter4delphi": ">0.0.0",
+		"https://github.com/frones/zeoslib": "^7.2.6-stable",
 		"https://github.com/hashload/jhonson": "^1.0.3"
 	}
 }
